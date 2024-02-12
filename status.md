@@ -1,5 +1,5 @@
-CHECK: 20240212-065417
-OK: file codeforces.id is correct
+CHECK: 20240212-171812
+ERROR: codeforces id is wrong
 OK: folder prj.codeforces structure is correct
 OK: CMake generator successed
 OK: CMake build (MSVC x64) successed
