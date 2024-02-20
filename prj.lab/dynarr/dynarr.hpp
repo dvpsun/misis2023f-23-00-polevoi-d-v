@@ -8,12 +8,12 @@
 
 class DynArr {
 public:
-  [[nodiscard]] DynArr() = default;
+  DynArr() = default;
 
-  [[nodiscard]] DynArr(const DynArr&) = default;
+  DynArr(const DynArr&) = default;
   
   //! \param size - начальный размер, 0 < size
-  [[nodiscard]] DynArr(const std::ptrdiff_t size) : size_(size) { }
+  DynArr(const std::ptrdiff_t size) : size_(size) { }
   
   ~DynArr() = default;
   

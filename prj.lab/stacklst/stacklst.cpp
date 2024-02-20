@@ -1,6 +1,6 @@
 // 2024 by Polevoi Dmitry under Unlicense
 
-#include <stackarr/stacklst.hpp>
+#include <stacklst/stacklst.hpp>
 
 #include <stdexcept>
 
@@ -10,7 +10,7 @@ bool StackLst::IsEmpty() const noexcept {
 
 void StackLst::Pop() noexcept {
   if (!IsEmpty()) {
-    Head* deleted = head_;  
+    Node* deleted = head_;  
     head_ = head_->next;
     delete deleted;
   }
