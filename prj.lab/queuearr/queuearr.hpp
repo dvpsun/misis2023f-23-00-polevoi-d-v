@@ -16,7 +16,7 @@ public:
   
   ~QueueArr();
   
-  [[nodiscard]] QueueArr& operator=(const QueueArr&) = default;
+  [[nodiscard]] QueueArr& operator=(const QueueArr&);
 
   [[nodiscard]] bool IsEmpty() const noexcept;
 
@@ -35,6 +35,8 @@ private:
   Complex* data_ = nullptr;  //!< 
   std::ptrdiff_t head_ = -1; //!< 
   std::ptrdiff_t tail_ = -1; //!< 
+private:
+  std::ptrdiff_t Count() const;
 };
 
 #endif

@@ -5,6 +5,10 @@
 #include <algorithm>
 #include <stdexcept>
 
+std::ptrdiff_t QueueArr::Count() const {
+  return IsEmpty() ? 0 : (tail_ + size_ + 1 - head_) % size_;
+}
+
 QueueArr::QueueArr(const QueueArr& qu) {
   if (!qu.IsEmpty()) {
     size_ = (tail_ + qu.size_ + 1 - head_) % qu.size_;
