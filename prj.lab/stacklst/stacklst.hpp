@@ -13,10 +13,14 @@ public:
   StackLst() = default;
 
   StackLst(const StackLst&) = default;
+
+  StackLst(StackLst&) = default;
   
   ~StackLst() = default;
   
-  [[nodiscard]] StackLst& operator=(const StackLst&) = default;
+  StackLst& operator=(const StackLst&) = default;
+
+  StackLst& operator=(StackLst&&) = default;
 
   bool IsEmpty() const noexcept;
 

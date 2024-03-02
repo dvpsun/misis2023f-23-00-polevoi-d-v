@@ -9,12 +9,14 @@
 
 class Rational {
 public:
-  [[nodiscard]] Rational() = default;
-  [[nodiscard]] Rational(const Rational&) = default;
-  [[nodiscard]] explicit Rational(const std::int64_t num) noexcept : num_(num) { }
-  [[nodiscard]] Rational(const std::int64_t num, const std::int64_t den);
+  Rational() = default;
+  Rational(const Rational&) = default;
+  Rational(Rational&&) = default;
+  explicit Rational(const std::int64_t num) noexcept : num_(num) { }
+  Rational(const std::int64_t num, const std::int64_t den);
   ~Rational() = default;
-  [[nodiscard]] Rational& operator=(const Rational&) = default;
+  Rational& operator=(const Rational&) = default;
+  Rational& operator=(Rational&&) = default;
 
   [[nodiscard]] std::int64_t num() const noexcept { return num_; }
   [[nodiscard]] std::int64_t den() const noexcept { return den_; }
