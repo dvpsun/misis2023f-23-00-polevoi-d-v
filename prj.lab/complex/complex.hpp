@@ -9,24 +9,28 @@
 //! \brief Комплексные числа.
 struct Complex {
   //! \brief Умолчательный конструктор.
-  [[nodiscard]] Complex() = default;
+  Complex() = default;
 
   //! \brief Копирующий конструктор.
-  [[nodiscard]] Complex(const Complex&) = default;
+  Complex(const Complex&) = default;
+
+  Complex(Complex&&) = default;
 
   //! \brief Конструирование комплексного числа из заданного вещественного.
   //! \param real - вещественная часть комплексного числа
-  [[nodiscard]] explicit Complex(const double real) : re(real) { }
+  explicit Complex(const double real) : re(real) { }
 
   //! \brief Конструирование комплексного числа
   //!
   //! с заданными вещественной real и мнимой imaginary частями.
   //! \param[in] real - вещественная часть комплексного числа
   //! \param[in] imaginary - мнимая часть комплексного числа
-  [[nodiscard]] Complex(const double real, const double imaginary) : re(real), im(imaginary) {}
+  Complex(const double real, const double imaginary) : re(real), im(imaginary) {}
 
   //! \brief Присваивание.
   Complex& operator=(const Complex&) = default;
+
+  Complex& operator=(Complex&&) = default;
 
   //! \brief Деструктор.
   ~Complex() = default;
