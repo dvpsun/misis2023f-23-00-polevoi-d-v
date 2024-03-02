@@ -11,13 +11,17 @@ public:
   DynArr() = default;
 
   DynArr(const DynArr&) = default;
+
+  DynArr(DynArr&&) = default;
   
   //! \param size - начальный размер, 0 < size
   DynArr(const std::ptrdiff_t size) : size_(size) { }
   
   ~DynArr() = default;
   
-  [[nodiscard]] DynArr& operator=(const DynArr&) = default;
+  DynArr& operator=(const DynArr&) = default;
+
+  DynArr& operator=(DynArr&&) = default;
 
   [[nodiscard]] std::ptrdiff_t Size() const noexcept { return size_; }
   
