@@ -4,19 +4,23 @@
 #ifndef STACKARR_STACKARR_HPP_20240203
 #define STACKARR_STACKARR_HPP_20240203
 
-#include <cstddef>
+#include <stackarr/stackarr.hpp>
 
-struct Complex;
+#include <cstddef>
 
 class StackArr {
 public:
-  [[nodiscard]] StackArr() = default;
+  StackArr() = default;
+  
+  StackArr(const StackArr&) = default;
 
-  [[nodiscard]] StackArr(const StackArr&) = default;
+  StackArr(StackArr&&) = default;
   
   ~StackArr() = default;
   
-  [[nodiscard]] StackArr& operator=(const StackArr&) = default;
+  StackArr& operator=(const StackArr&) = default;
+
+  StackArr& operator=(StackArr&&) = default;
 
   bool IsEmpty() const noexcept;
 
