@@ -20,7 +20,7 @@ QueueArr::QueueArr(const QueueArr& qu) {
        std::copy(qu.data_ + qu.head_,qu.data_ + qu.tail_, data_);
     } else {
        std::copy(qu.data_ + qu.head_,qu.data_ + qu.size_, data_);
-       std::copy(qu.data_ , qu.data_ + qu.tail_, data_ + qu.size_);
+       std::copy(qu.data_ , qu.data_ + qu.tail_, data_ + qu.size_ - qu.head_);
     }
   }
 }
@@ -45,7 +45,8 @@ void QueueArr::Pop() noexcept {
 
 void QueueArr::Push(const Complex& val) {
   if (nullptr == data_) {
-    data_ = new Complex[1];
+    size_ = 2;
+    data_ = new Complex[size_];
   } 
   if (IsEmpty()) {
     head_ = 0;
@@ -53,9 +54,17 @@ void QueueArr::Push(const Complex& val) {
   } else {
     if (head_ == (tail_ + 1) % size_) {
       // resize
-    } else {
-      tail_ = (tail_ + 1) % size_;
+      auto size = 2 * size_;
+      auto data = new Complex[size];
+      if (head_ < tail_) {
+        std::copy(data_ + head_, data_ + tail_, data);
+      } else {
+        std::copy(data_ + head_, data_ + size_, data);
+        std::copy(data_, data_ + tail_, data + size_ - head_);
+      }
+      size_ = size;
     }
+    tail_ = (tail_ + 1) % size_;
   }
   data_[tail_] = val;
 }
