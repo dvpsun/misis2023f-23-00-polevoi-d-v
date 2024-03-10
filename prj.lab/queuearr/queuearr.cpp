@@ -24,7 +24,11 @@ QueueArr::QueueArr(const QueueArr& qu) {
     }
   }
 }
-  
+
+QueueArr& QueueArr::operator=(const QueueArr&) {
+  return *this;
+}
+
 QueueArr::~QueueArr() {
   delete[] data_;
 }

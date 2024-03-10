@@ -7,7 +7,7 @@
 #include <stdexcept>
 
 bool StackArr::IsEmpty() const noexcept {
-  return 0 <= i_top_;
+  return i_top_ < 0;
 }
 
 void StackArr::Pop() noexcept {
