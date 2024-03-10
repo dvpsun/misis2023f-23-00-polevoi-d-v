@@ -17,6 +17,8 @@ if (BUILD_WITH_CODEFORCES)
   add_subdirectory(prj.codeforces)
 endif()
 
+enable_testing()
+
 add_subdirectory(prj.lab)
 add_subdirectory(prj.test)
 
