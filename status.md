@@ -1,4 +1,4 @@
-CHECK: 20240310-201957
+CHECK: 20240310-203114
 OK: file codeforces.id is correct
 OK: folder prj.codeforces structure is correct
 OK: CMake generator successed
@@ -16,7 +16,7 @@ STATUS: lab stackarr_m - test-failed
 STATUS: lab stacklst - test-ok
 STATUS: lab stacklst_m - test-failed
 STATUS: lab queuearr - test-ok
-ERROR: lab queuearr_m - test build failed
+STATUS: lab queuearr_m - test-failed
 STATUS: lab queuelst - test-ok
 STATUS: lab queuelst_m - test-failed
 STATUS: lab queuelstpr - test-ok
