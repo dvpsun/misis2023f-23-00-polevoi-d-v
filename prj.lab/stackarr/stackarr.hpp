@@ -12,17 +12,17 @@ class StackArr {
 public:
   StackArr() = default;
   
-  StackArr(const StackArr&) = default;
+  StackArr(const StackArr&);
 
-  StackArr(StackArr&&) = default;
+  StackArr(StackArr&&);
   
-  ~StackArr() = default;
+  ~StackArr();
   
-  StackArr& operator=(const StackArr&) = default;
+  StackArr& operator=(const StackArr&);
 
-  StackArr& operator=(StackArr&&) = default;
+  StackArr& operator=(StackArr&&);
 
-  bool IsEmpty() const noexcept;
+  [[nodiscard]] bool IsEmpty() const noexcept;
 
   void Pop() noexcept;
 
