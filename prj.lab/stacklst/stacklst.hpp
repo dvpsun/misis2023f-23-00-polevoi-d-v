@@ -14,23 +14,23 @@ public:
 
   StackLst(const StackLst&) = default;
 
-  StackLst(StackLst&) = default;
+  StackLst(StackLst&& src) noexcept;
   
   ~StackLst() = default;
   
   StackLst& operator=(const StackLst&) = default;
 
-  StackLst& operator=(StackLst&&) = default;
+  StackLst& operator=(StackLst&& src) noexcept;
 
-  bool IsEmpty() const noexcept;
+  [[nodiscard]] bool IsEmpty() const noexcept;
 
   void Pop() noexcept;
 
   void Push(const Complex& val);
   
-  [[nodiscard]] Complex& Top();
+  [[nodiscard]] Complex& Top() &;
 
-  [[nodiscard]] const Complex& Top() const;
+  [[nodiscard]] const Complex& Top() const &;
 
   void Clear() noexcept;
 
