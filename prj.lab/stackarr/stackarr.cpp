@@ -8,9 +8,9 @@
 
 StackArr::StackArr(const StackArr& src) {
   if (!src.IsEmpty()) {
+    i_top_ = src.i_top_;
     size_ = ((i_top_ + 1) / 4 + 1) * 4;
-    size_ = src.i_top_;
-    data_ = new Complex(size_ * 2);
+    data_ = new Complex[size_ * 2];
     std::copy(src.data_, src.data_ + size_ + 1, data_);
   }
 }
@@ -63,10 +63,10 @@ void StackArr::Pop() noexcept {
 
 void StackArr::Push(const Complex& val) {
   if (nullptr == data_) {
-    size_ = 8;
+    size_ = 1;
     data_ = new Complex[size_];
   } else if (size_ == i_top_ + 1) { 
-    auto buf = new Complex(size_ * 2);
+    auto buf = new Complex[size_ * 2];
     std::copy(data_, data_ + size_, buf);
     std::swap(data_, buf);
     delete[] buf;
