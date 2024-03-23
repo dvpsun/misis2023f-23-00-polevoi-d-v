@@ -30,7 +30,7 @@ public:
 
   int32_t Size() const noexcept { return size_; }
 
-  void Resize(const int32_t size);
+  void Resize(const int32_t size); // 0 < size
 
   [[nodiscard]] bool Get(const int32_t idx) const;
 
