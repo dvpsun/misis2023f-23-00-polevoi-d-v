@@ -1,7 +1,9 @@
-#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
-#include "doctest.h"
+// 2024 by Polevoi Dmitry under Unlicense
 
 #include <dynarr/dynarr.hpp>
+
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include <doctest/doctest.h>
 
 TEST_CASE("dynarr ctor") {
   DynArr arr_def;

@@ -1,7 +1,9 @@
+// 2024 by Polevoi Dmitry under Unlicense
+
 #include <queuearr/queuearr.hpp>
 
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
-#include "doctest.h"
+#include <doctest/doctest.h>
 
 #include <cstdint>
 #include <chrono>

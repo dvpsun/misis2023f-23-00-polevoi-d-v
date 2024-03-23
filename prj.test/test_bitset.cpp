@@ -1,12 +1,10 @@
 // 2024 by Polevoi Dmitry under Unlicense
 
-#include <stackarr/stackarr.hpp>
+#include <bitset/bitset.hpp>
 
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include <doctest/doctest.h>
 
-#include <cstdint>
-
-TEST_CASE("[stackarr] - ctor") {
-  StackArr st;
+TEST_CASE("[bitset] - def ctor") {
+  BitSet b;
 }
