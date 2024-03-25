@@ -44,7 +44,7 @@ public:
 
   [[nodiscard]] BitSet& operator^=(const BitSet& rhs);
 
-  [[nodiscard]] BitSet& operator~=();
+  [[nodiscard]] BitSet operator~();
 
   // ? operator[](const int32_t) - what can return
   // std::ostream& WriteTxt(std::ostream&)
