@@ -59,10 +59,10 @@ private:
 // std::ostream& operaror<<(std::ostream&, const BitSet&);
 // std::istream& operaror>>(std::istream&, BitSet&);
 
-[[nodiscard]] BitSet operator&(const BitSet& rhs);
+[[nodiscard]] BitSet operator&(const BitSet& lhs, const BitSet& rhs);
 
-[[nodiscard]] BitSet operator|(const BitSet& rhs);
+[[nodiscard]] BitSet operator|(const BitSet& lhs, const BitSet& rhs);
 
-[[nodiscard]] BitSet operator^(const BitSet& rhs);
+[[nodiscard]] BitSet operator^(const BitSet& lhs, const BitSet& rhs);
 
 #endif
