@@ -8,19 +8,19 @@
 
 #include <cstddef>
 
-class QueueLst final {
+class QueueLst {
 public:
   QueueLst() = default;
 
-  QueueLst(const QueueLst& src);
+  QueueLst(const QueueLst&) = default;
 
-  QueueLst(QueueLst&& src) noexcept;
+  QueueLst(QueueLst&&) = default;
   
   ~QueueLst() = default;
   
-  QueueLst& operator=(const QueueLst& src);
+  QueueLst& operator=(const QueueLst&) = default;
 
-  QueueLst& operator=(QueueLst&& src) noexcept;
+  QueueLst& operator=(QueueLst&&) = default;
 
   [[nodiscard]] bool IsEmpty() const noexcept;
 
@@ -28,9 +28,9 @@ public:
 
   void Push(const Complex& val);
   
-  [[nodiscard]] Complex& Top() &;
+  [[nodiscard]] Complex& Top();
 
-  [[nodiscard]] const Complex& Top() const &;
+  [[nodiscard]] const Complex& Top() const;
 
   void Clear() noexcept;
 

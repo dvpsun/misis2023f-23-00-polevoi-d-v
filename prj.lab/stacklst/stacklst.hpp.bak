@@ -8,17 +8,17 @@
 
 #include <cstddef>
 
-class StackLst final {
+class StackLst {
 public:
   StackLst() = default;
 
-  StackLst(const StackLst& src);
+  StackLst(const StackLst&);
 
   StackLst(StackLst&& src) noexcept;
   
   ~StackLst() = default;
   
-  StackLst& operator=(const StackLst& src);
+  StackLst& operator=(const StackLst&);
 
   StackLst& operator=(StackLst&& src) noexcept;
 

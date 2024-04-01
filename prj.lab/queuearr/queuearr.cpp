@@ -6,26 +6,64 @@
 #include <stdexcept>
 
 std::ptrdiff_t QueueArr::Count() const {
-  return IsEmpty() ? 0 : (tail_ + size_ + 1 - head_) % size_;
+  return IsEmpty() ? 0 : (tail_ + size_ - head_) % size_ + 1;
 }
 
-QueueArr::QueueArr(const QueueArr& qu) {
-  if (!qu.IsEmpty()) {
-    size_ = (tail_ + qu.size_ + 1 - head_) % qu.size_;
-    head_ = 0;
-    tail_ = size_;
-    size_ = (size_ + 4) / 4 * 4;
-    data_ = new Complex[size_];
-    if (qu.head_ < qu.tail_) {
-       std::copy(qu.data_ + qu.head_,qu.data_ + qu.tail_, data_);
+QueueArr& QueueArr::operator=(const QueueArr& src) {
+  if (this != &src) {
+    std::ptrdiff_t count = src.Count();
+    if (0 == count) {
+      head_ = -1;
     } else {
-       std::copy(qu.data_ + qu.head_,qu.data_ + qu.size_, data_);
-       std::copy(qu.data_ , qu.data_ + qu.tail_, data_ + qu.size_ - qu.head_);
+      if (size_ < count) {
+        size_ = (count + 4) / 4 * 4;
+        delete[] data_;
+        data_ = new Complex[size_];
+      }
+      if (src.head_ < src.tail_) {
+        std::copy(src.data_ + src.head_, src.data_ + src.tail_ + 1, data_);
+      }
+      else {
+        std::copy(src.data_ + src.head_, src.data_ + src.size_, data_);
+        std::copy(src.data_, src.data_ + src.tail_ + 1, data_ + src.size_ - src.head_);
+      }
+    head_ = 0;
+      tail_ = count - 1;
+    }
+  }
+  return *this;
+}
+
+QueueArr::QueueArr(const QueueArr& src) {
+  if (!src.IsEmpty()) {
+    std::ptrdiff_t count = src.Count();
+    head_ = 0;
+    tail_ = count - 1;
+    size_ = (count + 4) / 4 * 4;
+    data_ = new Complex[size_];
+    if (src.head_ < src.tail_) {
+       std::copy(src.data_ + src.head_, src.data_ + src.tail_ + 1, data_);
+    } else {
+       std::copy(src.data_ + src.head_, src.data_ + src.size_, data_);
+       std::copy(src.data_, src.data_ + src.tail_ + 1, data_ + src.size_ - src.head_);
     }
   }
 }
 
-QueueArr& QueueArr::operator=(const QueueArr&) {
+QueueArr::QueueArr(QueueArr&& src) noexcept {
+  std::swap(size_, src.size_);
+  std::swap(data_, src.data_);
+  std::swap(head_, src.head_);
+  std::swap(tail_, src.tail_);
+}
+
+QueueArr& QueueArr::operator=(QueueArr&& src) {
+  if (this != &src) {
+    std::swap(size_, src.size_);
+    std::swap(data_, src.data_);
+    std::swap(head_, src.head_);
+    std::swap(tail_, src.tail_);
+  }
   return *this;
 }
 
@@ -58,17 +96,20 @@ void QueueArr::Push(const Complex& val) {
   } else {
     if (head_ == (tail_ + 1) % size_) {
       // resize
-      auto size = 2 * size_;
-      auto data = new Complex[size];
+      Complex* buf = new Complex[size_ * 2];
+      std::swap(buf, data_);
       if (head_ < tail_) {
-        std::copy(data_ + head_, data_ + tail_, data);
+        std::copy(buf + head_, buf + tail_ + 1, data_);
       } else {
-        std::copy(data_ + head_, data_ + size_, data);
-        std::copy(data_, data_ + tail_, data + size_ - head_);
+        std::copy(buf + head_, buf + size_, data_);
+        std::copy(buf, buf + tail_ + 1, data_ + tail_ - head_);
       }
-      size_ = size;
+      delete[] buf;
+      size_ *= 2;
+      tail_ = Count();
+    } else {
+      tail_ = (tail_ + 1) % size_;
     }
-    tail_ = (tail_ + 1) % size_;
   }
   data_[tail_] = val;
 }
