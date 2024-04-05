@@ -1,263 +1,128 @@
 Версия MSBuild 17.9.5+33de0b227 для .NET Framework
 
   Checking Build System
-  Test project D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/build.check
-        Start  1: doctest_bitset
-  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset.exe
-  Looked in the following places:
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset.exe.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_bitset.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_bitset.exe.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset.exe.exe
-  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset.exe
-   1/20 Test  #1: doctest_bitset ...................***Not Run   0.00 sec
-        Start  2: doctest_bitset_m
-  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset_m.exe
-  Looked in the following places:
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset_m.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset_m.exe.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_bitset_m.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_bitset_m.exe.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset_m.exe
-  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset_m.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset_m.exe.exe
-   2/20 Test  #2: doctest_bitset_m .................***Not Run   0.00 sec
-        Start  3: doctest_complex
-  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex.exe
-  Looked in the following places:
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex.exe.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_complex.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_complex.exe.exe
-  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex.exe.exe
-   3/20 Test  #3: doctest_complex ..................***Not Run   0.00 sec
-        Start  4: doctest_complex_io
-  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_io.exe
-  Looked in the following places:
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_io.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_io.exe.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_complex_io.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_complex_io.exe.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_io.exe
-  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_io.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_io.exe.exe
-   4/20 Test  #4: doctest_complex_io ...............***Not Run   0.00 sec
-        Start  5: doctest_complex_m
-  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_m.exe
-  Looked in the following places:
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_m.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_m.exe.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_complex_m.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_complex_m.exe.exe
-  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_m.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_m.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_m.exe.exe
-   5/20 Test  #5: doctest_complex_m ................***Not Run   0.00 sec
-        Start  6: doctest_rational
-  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational.exe
-  Looked in the following places:
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational.exe.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_rational.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_rational.exe.exe
-  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational.exe.exe
-   6/20 Test  #6: doctest_rational .................***Not Run   0.00 sec
-        Start  7: doctest_rational_io
-  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_io.exe
-  Looked in the following places:
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_io.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_io.exe.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_rational_io.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_rational_io.exe.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_io.exe
-  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_io.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_io.exe.exe
-   7/20 Test  #7: doctest_rational_io ..............***Not Run   0.00 sec
-        Start  8: doctest_rational_m
-  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_m.exe
-  Looked in the following places:
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_m.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_m.exe.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_rational_m.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_rational_m.exe.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_m.exe
-  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_m.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_m.exe.exe
-   8/20 Test  #8: doctest_rational_m ...............***Not Run   0.00 sec
-        Start  9: doctest_dynarr
-  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr.exe
-  Looked in the following places:
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr.exe.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_dynarr.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_dynarr.exe.exe
-  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr.exe.exe
-   9/20 Test  #9: doctest_dynarr ...................***Not Run   0.00 sec
-        Start 10: doctest_dynarr_m
-  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr_m.exe
-  Looked in the following places:
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr_m.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr_m.exe.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_dynarr_m.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_dynarr_m.exe.exe
-  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr_m.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr_m.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr_m.exe.exe
-  10/20 Test #10: doctest_dynarr_m .................***Not Run   0.00 sec
-        Start 11: doctest_queuearr
-  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr.exe
-  Looked in the following places:
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr.exe.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuearr.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuearr.exe.exe
-  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr.exe.exe
-  11/20 Test #11: doctest_queuearr .................***Not Run   0.00 sec
-        Start 12: doctest_queuearr_m
-  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr_m.exe
-  Looked in the following places:
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr_m.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr_m.exe.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuearr_m.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuearr_m.exe.exe
-  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr_m.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr_m.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr_m.exe.exe
-  12/20 Test #12: doctest_queuearr_m ...............***Not Run   0.00 sec
-        Start 13: doctest_queuelst
-  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst.exe
-  Looked in the following places:
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst.exe.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuelst.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuelst.exe.exe
-  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst.exe.exe
-  13/20 Test #13: doctest_queuelst .................***Not Run   0.00 sec
-        Start 14: doctest_queuelst_m
-  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst_m.exe
-  Looked in the following places:
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst_m.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst_m.exe.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuelst_m.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuelst_m.exe.exe
-  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst_m.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst_m.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst_m.exe.exe
-  14/20 Test #14: doctest_queuelst_m ...............***Not Run   0.00 sec
-        Start 15: doctest_queuelstpr
-  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr.exe
-  Looked in the following places:
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr.exe.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuelstpr.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuelstpr.exe.exe
-  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr.exe.exe
-  15/20 Test #15: doctest_queuelstpr ...............***Not Run   0.00 sec
-        Start 16: doctest_queuelstpr_m
-  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr_m.exe
-  Looked in the following places:
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr_m.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr_m.exe.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuelstpr_m.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuelstpr_m.exe.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr_m.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr_m.exe.exe
-  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr_m.exe
-  16/20 Test #16: doctest_queuelstpr_m .............***Not Run   0.00 sec
-        Start 17: doctest_stackarr
-  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr.exe
-  Looked in the following places:
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr.exe.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_stackarr.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_stackarr.exe.exe
-  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr.exe.exe
-  17/20 Test #17: doctest_stackarr .................***Not Run   0.00 sec
-        Start 18: doctest_stackarr_m
-  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr_m.exe
-  Looked in the following places:
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr_m.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr_m.exe.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_stackarr_m.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_stackarr_m.exe.exe
-  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr_m.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr_m.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr_m.exe.exe
-  18/20 Test #18: doctest_stackarr_m ...............***Not Run   0.00 sec
-        Start 19: doctest_stacklst
-  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst.exe
-  Looked in the following places:
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst.exe.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_stacklst.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_stacklst.exe.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst.exe.exe
-  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst.exe
-  19/20 Test #19: doctest_stacklst .................***Not Run   0.00 sec
-        Start 20: doctest_stacklst_m
-  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst_m.exe
-  Looked in the following places:
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst_m.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst_m.exe.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_stacklst_m.exe
-  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_stacklst_m.exe.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst_m.exe
-  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst_m.exe.exe
-  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst_m.exe
-  20/20 Test #20: doctest_stacklst_m ...............***Not Run   0.00 sec
-  
-  0% tests passed, 20 tests failed out of 20
-  
-  Total Test time (real) =   0.03 sec
-  
-  The following tests FAILED:
-  	  1 - doctest_bitset (Not Run)
-  	  2 - doctest_bitset_m (Not Run)
-  	  3 - doctest_complex (Not Run)
-  	  4 - doctest_complex_io (Not Run)
-  	  5 - doctest_complex_m (Not Run)
-  	  6 - doctest_rational (Not Run)
-  	  7 - doctest_rational_io (Not Run)
-  	  8 - doctest_rational_m (Not Run)
-  	  9 - doctest_dynarr (Not Run)
-  	 10 - doctest_dynarr_m (Not Run)
-  	 11 - doctest_queuearr (Not Run)
-  	 12 - doctest_queuearr_m (Not Run)
-  	 13 - doctest_queuelst (Not Run)
-  	 14 - doctest_queuelst_m (Not Run)
-  	 15 - doctest_queuelstpr (Not Run)
-  	 16 - doctest_queuelstpr_m (Not Run)
-  	 17 - doctest_stackarr (Not Run)
-  	 18 - doctest_stackarr_m (Not Run)
-  	 19 - doctest_stacklst (Not Run)
-  	 20 - doctest_stacklst_m (Not Run)
-  Errors while running CTest
-  Output from these tests are in: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/build.check/Testing/Temporary/LastTest.log
-  Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
-d:\Programs\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: выход из команды "setlocal [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\RUN_TESTS.vcxproj]
-d:\Programs\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "C:\Program Files\CMake\bin\ctest.exe" --force-new-ctest-process -C Release [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\RUN_TESTS.vcxproj]
-d:\Programs\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\RUN_TESTS.vcxproj]
-d:\Programs\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmEnd [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\RUN_TESTS.vcxproj]
-d:\Programs\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\RUN_TESTS.vcxproj]
-d:\Programs\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmErrorLevel [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\RUN_TESTS.vcxproj]
-d:\Programs\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: exit /b %1 [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\RUN_TESTS.vcxproj]
-d:\Programs\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmDone [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\RUN_TESTS.vcxproj]
-d:\Programs\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\RUN_TESTS.vcxproj]
-d:\Programs\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :VCEnd" с кодом 8. [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\RUN_TESTS.vcxproj]
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.lab/bitset/CMakeLists.txt
+  bitset.cpp
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.lab/rational/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.lab/complex/CMakeLists.txt
+  rational.cpp
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.lab/dynarr/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.lab/queuelstpr/CMakeLists.txt
+  complex.cpp
+  dynarr.cpp
+  queuelstpr.cpp
+  complex.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.lab\complex\Release\complex.lib
+  rational.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.lab\rational\Release\rational.lib
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_rational/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_rational/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_rational/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.lab/queuearr/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_complex/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_complex/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.lab/stackarr/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_complex/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.lab/stacklst/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.lab/queuelst/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.test/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.test/CMakeLists.txt
+  bitset.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.lab\bitset\Release\bitset.lib
+  queuelstpr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.lab\queuelstpr\Release\queuelstpr.lib
+  stackarr.cpp
+  doctest_complex_io.cpp
+  queuelst.cpp
+  doctest_rational.cpp
+  stacklst.cpp
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.test/CMakeLists.txt
+  doctest_complex_moveable.cpp
+  queuearr.cpp
+  doctest_complex.cpp
+  test_complex.cpp
+  dynarr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.lab\dynarr\Release\dynarr.lib
+  test_rational.cpp
+  doctest_rational_moveable.cpp
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_queuelstpr/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_bitset/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_queuelstpr/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_bitset/CMakeLists.txt
+  test_bitset.cpp
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_dynarr/CMakeLists.txt
+  doctest_bitset.cpp
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.test/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_dynarr/CMakeLists.txt
+  doctest_dynarr_moveable.cpp
+  doctest_bitset_moveable.cpp
+  test_dynarr.cpp
+  doctest_dynarr.cpp
+  test_complex.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.rel\test_complex.exe
+  doctest_rational_io.cpp
+  queuelst.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.lab\queuelst\Release\queuelst.lib
+  stackarr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.lab\stackarr\Release\stackarr.lib
+  queuearr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.lab\queuearr\Release\queuearr.lib
+  stacklst.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.lab\stacklst\Release\stacklst.lib
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.test/CMakeLists.txt
+  doctest_queuelstpr_moveable.cpp
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_stackarr/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_stackarr/CMakeLists.txt
+  doctest_queuelstpr.cpp
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(14,19): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(16,19): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(16,13): error C2530: b2: ссылки должны быть инициализированы [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(88,5): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(89,9): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(91,5): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(92,9): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(94,5): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(96,7): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(97,3): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(98,3): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(99,3): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(102,3): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(103,3): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(104,3): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(105,3): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(123,12): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(124,21): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_queuelst/CMakeLists.txt
+  test_stackarr.cpp
+  doctest_stackarr_moveable.cpp
+  doctest_stackarr.cpp
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_queuelst/CMakeLists.txt
+  doctest_complex_io.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_complex_io.exe
+  doctest_dynarr_m.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_dynarr_m.exe
+  doctest_queuelst.cpp
+doctest_complex.obj : error LNK2019: ссылка на неразрешенный внешний символ "struct Complex __cdecl operator+(struct Complex const &,struct Complex const &)" (??H@YA?AUComplex@@AEBU0@0@Z) в функции "void __cdecl DOCTEST_ANON_FUNC_30(void)" (?DOCTEST_ANON_FUNC_30@@YAXXZ). [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_complex\doctest_complex.vcxproj]
+doctest_complex.obj : error LNK2019: ссылка на неразрешенный внешний символ "struct Complex __cdecl operator-(struct Complex const &,struct Complex const &)" (??G@YA?AUComplex@@AEBU0@0@Z) в функции "void __cdecl DOCTEST_ANON_FUNC_34(void)" (?DOCTEST_ANON_FUNC_34@@YAXXZ). [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_complex\doctest_complex.vcxproj]
+  doctest_rational.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_rational.exe
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_complex.exe : fatal error LNK1120: неразрешенных внешних элементов: 2 [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_complex\doctest_complex.vcxproj]
+doctest_bitset_moveable.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __cdecl BitSet::BitSet(int)" (??0BitSet@@QEAA@H@Z) в функции "void __cdecl DOCTEST_ANON_FUNC_14(void)" (?DOCTEST_ANON_FUNC_14@@YAXXZ). [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset_m.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_bitset_m.exe : fatal error LNK1120: неразрешенных внешних элементов: 1 [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset_m.vcxproj]
+  test_dynarr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.rel\test_dynarr.exe
+  doctest_rational_io.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_rational_io.exe
+  test_bitset.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.rel\test_bitset.exe
+  doctest_complex_m.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_complex_m.exe
+  test_rational.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.rel\test_rational.exe
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_stacklst/CMakeLists.txt
+  doctest_dynarr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_dynarr.exe
+  doctest_queuelstpr_m.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_queuelstpr_m.exe
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_stacklst/CMakeLists.txt
+  doctest_stacklst.cpp
+  doctest_stacklst_moveable.cpp
+  doctest_queuelst_moveable.cpp
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.test/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_queuearr/CMakeLists.txt
+  doctest_rational_m.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_rational_m.exe
+  doctest_queuelstpr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_queuelstpr.exe
+  test_queuearr.cpp
+  doctest_queuearr_moveable.cpp
+  test_stackarr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.rel\test_stackarr.exe
+  doctest_stackarr_m.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_stackarr_m.exe
+  doctest_stackarr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_stackarr.exe
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_queuearr/CMakeLists.txt
+  doctest_queuearr.cpp
+  doctest_stacklst_m.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_stacklst_m.exe
+  doctest_queuelst.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_queuelst.exe
+  test_queuearr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.rel\test_queuearr.exe
+  doctest_stacklst.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_stacklst.exe
+  doctest_queuearr_m.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_queuearr_m.exe
+  doctest_queuelst_m.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_queuelst_m.exe
+  doctest_queuearr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_queuearr.exe
