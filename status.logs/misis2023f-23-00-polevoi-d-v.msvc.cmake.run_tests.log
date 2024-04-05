@@ -1,26 +1,263 @@
-Unknown argument --targe
-Usage: cmake --build <dir>             [options] [-- [native-options]]
-       cmake --build --preset <preset> [options] [-- [native-options]]
-Options:
-  <dir>          = Project binary directory to be built.
-  --preset <preset>, --preset=<preset>
-                 = Specify a build preset.
-  --list-presets[=<type>]
-                 = List available build presets.
-  --parallel [<jobs>], -j [<jobs>]
-                 = Build in parallel using the given number of jobs. 
-                   If <jobs> is omitted the native build tool's 
-                   default number is used.
-                   The CMAKE_BUILD_PARALLEL_LEVEL environment variable
-                   specifies a default parallel level when this option
-                   is not given.
-  -t <tgt>..., --target <tgt>...
-                 = Build <tgt> instead of default targets.
-  --config <cfg> = For multi-configuration tools, choose <cfg>.
-  --clean-first  = Build target 'clean' first, then build.
-                   (To clean only, use --target 'clean'.)
-  --resolve-package-references={on|only|off}
-                 = Restore/resolve package references during build.
-  -v, --verbose  = Enable verbose output - if supported - including
-                   the build commands to be executed. 
-  --             = Pass remaining options to the native tool.
+Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+
+  Checking Build System
+  Test project D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/build.check
+        Start  1: doctest_bitset
+  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset.exe
+  Looked in the following places:
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset.exe.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_bitset.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_bitset.exe.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset.exe.exe
+  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset.exe
+   1/20 Test  #1: doctest_bitset ...................***Not Run   0.00 sec
+        Start  2: doctest_bitset_m
+  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset_m.exe
+  Looked in the following places:
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset_m.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset_m.exe.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_bitset_m.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_bitset_m.exe.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset_m.exe
+  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset_m.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_bitset_m.exe.exe
+   2/20 Test  #2: doctest_bitset_m .................***Not Run   0.00 sec
+        Start  3: doctest_complex
+  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex.exe
+  Looked in the following places:
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex.exe.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_complex.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_complex.exe.exe
+  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex.exe.exe
+   3/20 Test  #3: doctest_complex ..................***Not Run   0.00 sec
+        Start  4: doctest_complex_io
+  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_io.exe
+  Looked in the following places:
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_io.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_io.exe.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_complex_io.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_complex_io.exe.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_io.exe
+  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_io.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_io.exe.exe
+   4/20 Test  #4: doctest_complex_io ...............***Not Run   0.00 sec
+        Start  5: doctest_complex_m
+  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_m.exe
+  Looked in the following places:
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_m.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_m.exe.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_complex_m.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_complex_m.exe.exe
+  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_m.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_m.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_complex_m.exe.exe
+   5/20 Test  #5: doctest_complex_m ................***Not Run   0.00 sec
+        Start  6: doctest_rational
+  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational.exe
+  Looked in the following places:
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational.exe.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_rational.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_rational.exe.exe
+  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational.exe.exe
+   6/20 Test  #6: doctest_rational .................***Not Run   0.00 sec
+        Start  7: doctest_rational_io
+  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_io.exe
+  Looked in the following places:
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_io.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_io.exe.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_rational_io.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_rational_io.exe.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_io.exe
+  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_io.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_io.exe.exe
+   7/20 Test  #7: doctest_rational_io ..............***Not Run   0.00 sec
+        Start  8: doctest_rational_m
+  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_m.exe
+  Looked in the following places:
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_m.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_m.exe.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_rational_m.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_rational_m.exe.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_m.exe
+  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_m.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_rational_m.exe.exe
+   8/20 Test  #8: doctest_rational_m ...............***Not Run   0.00 sec
+        Start  9: doctest_dynarr
+  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr.exe
+  Looked in the following places:
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr.exe.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_dynarr.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_dynarr.exe.exe
+  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr.exe.exe
+   9/20 Test  #9: doctest_dynarr ...................***Not Run   0.00 sec
+        Start 10: doctest_dynarr_m
+  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr_m.exe
+  Looked in the following places:
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr_m.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr_m.exe.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_dynarr_m.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_dynarr_m.exe.exe
+  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr_m.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr_m.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_dynarr_m.exe.exe
+  10/20 Test #10: doctest_dynarr_m .................***Not Run   0.00 sec
+        Start 11: doctest_queuearr
+  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr.exe
+  Looked in the following places:
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr.exe.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuearr.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuearr.exe.exe
+  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr.exe.exe
+  11/20 Test #11: doctest_queuearr .................***Not Run   0.00 sec
+        Start 12: doctest_queuearr_m
+  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr_m.exe
+  Looked in the following places:
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr_m.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr_m.exe.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuearr_m.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuearr_m.exe.exe
+  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr_m.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr_m.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuearr_m.exe.exe
+  12/20 Test #12: doctest_queuearr_m ...............***Not Run   0.00 sec
+        Start 13: doctest_queuelst
+  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst.exe
+  Looked in the following places:
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst.exe.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuelst.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuelst.exe.exe
+  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst.exe.exe
+  13/20 Test #13: doctest_queuelst .................***Not Run   0.00 sec
+        Start 14: doctest_queuelst_m
+  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst_m.exe
+  Looked in the following places:
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst_m.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst_m.exe.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuelst_m.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuelst_m.exe.exe
+  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst_m.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst_m.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelst_m.exe.exe
+  14/20 Test #14: doctest_queuelst_m ...............***Not Run   0.00 sec
+        Start 15: doctest_queuelstpr
+  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr.exe
+  Looked in the following places:
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr.exe.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuelstpr.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuelstpr.exe.exe
+  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr.exe.exe
+  15/20 Test #15: doctest_queuelstpr ...............***Not Run   0.00 sec
+        Start 16: doctest_queuelstpr_m
+  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr_m.exe
+  Looked in the following places:
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr_m.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr_m.exe.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuelstpr_m.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_queuelstpr_m.exe.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr_m.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr_m.exe.exe
+  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_queuelstpr_m.exe
+  16/20 Test #16: doctest_queuelstpr_m .............***Not Run   0.00 sec
+        Start 17: doctest_stackarr
+  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr.exe
+  Looked in the following places:
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr.exe.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_stackarr.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_stackarr.exe.exe
+  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr.exe.exe
+  17/20 Test #17: doctest_stackarr .................***Not Run   0.00 sec
+        Start 18: doctest_stackarr_m
+  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr_m.exe
+  Looked in the following places:
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr_m.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr_m.exe.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_stackarr_m.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_stackarr_m.exe.exe
+  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr_m.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr_m.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stackarr_m.exe.exe
+  18/20 Test #18: doctest_stackarr_m ...............***Not Run   0.00 sec
+        Start 19: doctest_stacklst
+  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst.exe
+  Looked in the following places:
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst.exe.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_stacklst.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_stacklst.exe.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst.exe.exe
+  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst.exe
+  19/20 Test #19: doctest_stacklst .................***Not Run   0.00 sec
+        Start 20: doctest_stacklst_m
+  Could not find executable D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst_m.exe
+  Looked in the following places:
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst_m.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst_m.exe.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_stacklst_m.exe
+  D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/Release/doctest_stacklst_m.exe.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst_m.exe
+  Release/D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst_m.exe.exe
+  Unable to find executable: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/bin.check/doctest_stacklst_m.exe
+  20/20 Test #20: doctest_stacklst_m ...............***Not Run   0.00 sec
+  
+  0% tests passed, 20 tests failed out of 20
+  
+  Total Test time (real) =   0.03 sec
+  
+  The following tests FAILED:
+  	  1 - doctest_bitset (Not Run)
+  	  2 - doctest_bitset_m (Not Run)
+  	  3 - doctest_complex (Not Run)
+  	  4 - doctest_complex_io (Not Run)
+  	  5 - doctest_complex_m (Not Run)
+  	  6 - doctest_rational (Not Run)
+  	  7 - doctest_rational_io (Not Run)
+  	  8 - doctest_rational_m (Not Run)
+  	  9 - doctest_dynarr (Not Run)
+  	 10 - doctest_dynarr_m (Not Run)
+  	 11 - doctest_queuearr (Not Run)
+  	 12 - doctest_queuearr_m (Not Run)
+  	 13 - doctest_queuelst (Not Run)
+  	 14 - doctest_queuelst_m (Not Run)
+  	 15 - doctest_queuelstpr (Not Run)
+  	 16 - doctest_queuelstpr_m (Not Run)
+  	 17 - doctest_stackarr (Not Run)
+  	 18 - doctest_stackarr_m (Not Run)
+  	 19 - doctest_stacklst (Not Run)
+  	 20 - doctest_stacklst_m (Not Run)
+  Errors while running CTest
+  Output from these tests are in: D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/build.check/Testing/Temporary/LastTest.log
+  Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+d:\Programs\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: выход из команды "setlocal [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\RUN_TESTS.vcxproj]
+d:\Programs\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "C:\Program Files\CMake\bin\ctest.exe" --force-new-ctest-process -C Release [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\RUN_TESTS.vcxproj]
+d:\Programs\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\RUN_TESTS.vcxproj]
+d:\Programs\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmEnd [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\RUN_TESTS.vcxproj]
+d:\Programs\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\RUN_TESTS.vcxproj]
+d:\Programs\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmErrorLevel [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\RUN_TESTS.vcxproj]
+d:\Programs\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: exit /b %1 [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\RUN_TESTS.vcxproj]
+d:\Programs\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmDone [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\RUN_TESTS.vcxproj]
+d:\Programs\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\RUN_TESTS.vcxproj]
+d:\Programs\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :VCEnd" с кодом 8. [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\RUN_TESTS.vcxproj]
