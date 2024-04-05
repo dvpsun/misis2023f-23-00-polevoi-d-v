@@ -1,0 +1,128 @@
+Версия MSBuild 17.9.5+33de0b227 для .NET Framework
+
+  Checking Build System
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.lab/bitset/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.lab/complex/CMakeLists.txt
+  bitset.cpp
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.lab/dynarr/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.lab/queuelstpr/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.lab/rational/CMakeLists.txt
+  complex.cpp
+  dynarr.cpp
+  rational.cpp
+  queuelstpr.cpp
+  complex.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.lab\complex\Release\complex.lib
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_complex/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_complex/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.lab/queuearr/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.lab/stacklst/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.lab/queuelst/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.lab/stackarr/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_complex/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.test/CMakeLists.txt
+  doctest_complex.cpp
+  doctest_complex_io.cpp
+  stacklst.cpp
+  queuearr.cpp
+  stackarr.cpp
+  doctest_complex_moveable.cpp
+  test_complex.cpp
+  queuelst.cpp
+  queuelstpr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.lab\queuelstpr\Release\queuelstpr.lib
+  rational.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.lab\rational\Release\rational.lib
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_queuelstpr/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_queuelstpr/CMakeLists.txt
+  dynarr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.lab\dynarr\Release\dynarr.lib
+  bitset.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.lab\bitset\Release\bitset.lib
+  doctest_queuelstpr.cpp
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.test/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.test/CMakeLists.txt
+  doctest_queuelstpr_moveable.cpp
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_rational/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_rational/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_rational/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_dynarr/CMakeLists.txt
+  test_complex.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.rel\test_complex.exe
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_dynarr/CMakeLists.txt
+  doctest_rational_io.cpp
+  doctest_rational_moveable.cpp
+  test_rational.cpp
+  doctest_dynarr.cpp
+  test_dynarr.cpp
+  doctest_rational.cpp
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.test/CMakeLists.txt
+  doctest_dynarr_moveable.cpp
+  queuearr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.lab\queuearr\Release\queuearr.lib
+  queuelst.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.lab\queuelst\Release\queuelst.lib
+  stacklst.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.lab\stacklst\Release\stacklst.lib
+  stackarr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.lab\stackarr\Release\stackarr.lib
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_bitset/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.test/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_bitset/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_queuearr/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_queuearr/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_stackarr/CMakeLists.txt
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.test/CMakeLists.txt
+  test_queuearr.cpp
+  doctest_queuearr.cpp
+  doctest_queuearr_moveable.cpp
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_stackarr/CMakeLists.txt
+  doctest_stackarr_moveable.cpp
+  test_stackarr.cpp
+  doctest_stackarr.cpp
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_queuelst/CMakeLists.txt
+  doctest_complex_m.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_complex_m.exe
+  doctest_queuelst.cpp
+  doctest_queuearr_m.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_queuearr_m.exe
+  doctest_dynarr_m.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_dynarr_m.exe
+  doctest_dynarr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_dynarr.exe
+  test_dynarr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.rel\test_dynarr.exe
+  doctest_queuearr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_queuearr.exe
+  test_stackarr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.rel\test_stackarr.exe
+  doctest_rational_m.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_rational_m.exe
+  doctest_queuelstpr_m.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_queuelstpr_m.exe
+  test_rational.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.rel\test_rational.exe
+  doctest_queuelstpr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_queuelstpr.exe
+  doctest_rational.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_rational.exe
+  doctest_rational_io.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_rational_io.exe
+  doctest_bitset.cpp
+  doctest_complex_io.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_complex_io.exe
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_stacklst/CMakeLists.txt
+  doctest_stackarr_m.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_stackarr_m.exe
+  test_bitset.cpp
+  doctest_bitset_moveable.cpp
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_queuelst/CMakeLists.txt
+  doctest_stacklst_moveable.cpp
+  test_queuearr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.rel\test_queuearr.exe
+  Building Custom Rule D:/.dima/misis2023f-23-check/misis2023f-23-00-polevoi-d-v/prj.check/prj.check/doctest_stacklst/CMakeLists.txt
+  doctest_queuelst_moveable.cpp
+  doctest_stacklst.cpp
+doctest_complex.obj : error LNK2019: ссылка на неразрешенный внешний символ "struct Complex __cdecl operator+(struct Complex const &,struct Complex const &)" (??H@YA?AUComplex@@AEBU0@0@Z) в функции "void __cdecl DOCTEST_ANON_FUNC_30(void)" (?DOCTEST_ANON_FUNC_30@@YAXXZ). [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_complex\doctest_complex.vcxproj]
+  doctest_stackarr.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_stackarr.exe
+doctest_complex.obj : error LNK2019: ссылка на неразрешенный внешний символ "struct Complex __cdecl operator-(struct Complex const &,struct Complex const &)" (??G@YA?AUComplex@@AEBU0@0@Z) в функции "void __cdecl DOCTEST_ANON_FUNC_34(void)" (?DOCTEST_ANON_FUNC_34@@YAXXZ). [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_complex\doctest_complex.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_complex.exe : fatal error LNK1120: неразрешенных внешних элементов: 2 [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_complex\doctest_complex.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(14,19): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(16,19): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(16,13): error C2530: b2: ссылки должны быть инициализированы [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(88,5): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(89,9): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(91,5): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(92,9): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(94,5): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(96,7): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(97,3): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(98,3): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(99,3): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(102,3): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(103,3): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(104,3): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(105,3): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(123,12): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\prj.check\prj.check\doctest_bitset\doctest_bitset.cpp(124,21): error C2676: бинарный "[": "BitSet" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset.vcxproj]
+  doctest_queuelst.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_queuelst.exe
+  test_bitset.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.rel\test_bitset.exe
+  doctest_queuelst_m.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_queuelst_m.exe
+doctest_bitset_moveable.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __cdecl BitSet::BitSet(int)" (??0BitSet@@QEAA@H@Z) в функции "void __cdecl DOCTEST_ANON_FUNC_14(void)" (?DOCTEST_ANON_FUNC_14@@YAXXZ). [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset_m.vcxproj]
+D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_bitset_m.exe : fatal error LNK1120: неразрешенных внешних элементов: 1 [D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\build.check\prj.check\prj.check\doctest_bitset\doctest_bitset_m.vcxproj]
+  doctest_stacklst_m.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_stacklst_m.exe
+  doctest_stacklst.vcxproj -> D:\.dima\misis2023f-23-check\misis2023f-23-00-polevoi-d-v\bin.check\doctest_stacklst.exe
