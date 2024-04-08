@@ -1,15 +1,15 @@
 // 2024 by Polevoi Dmitry under Unlicense
 
 #pragma once
-#ifndef StackLstTT_StackLstTT_HPP_20240408
-#define StackLstTT_StackLstTT_HPP_20240408
+#ifndef STACKLSTT_STACKLSTT_HPP_20240408
+#define STACKLSTT_STACKLSTT_HPP_20240408
 
 
 #include <cstddef>
 #include <memory>
 #include <stdexcept>
 
-/*
+template<class T>
 class StackLstT final {
 public:
   StackLstT() = default;
@@ -28,25 +28,25 @@ public:
 
   void Pop() noexcept;
 
-  void Push(const Complex& val);
+  void Push(const T& val);
   
-  [[nodiscard]] Complex& Top() &;
+  [[nodiscard]] T& Top() &;
 
-  [[nodiscard]] const Complex& Top() const &;
+  [[nodiscard]] const T& Top() const &;
 
   void Clear() noexcept;
 
 private:
   struct Node {
-    Complex val;
+    T val;
     Node* next = nullptr;
   };
 
   Node* head_ = nullptr;   //!< 
 };
 
-
-StackLstT::StackLstT(const StackLstT& src) {
+template<class T>
+StackLstT<T>::StackLstT(const StackLstT<T>& src) {
   if (!src.IsEmpty()) {
     head_ = new Node{src.Top()};
     Node* p_src = src.head_;
@@ -59,11 +59,13 @@ StackLstT::StackLstT(const StackLstT& src) {
   }
 }
 
-StackLstT::StackLstT(StackLstT&& src) noexcept {
+template<class T>
+StackLstT<T>::StackLstT(StackLstT<T>&& src) noexcept {
   std::swap(head_, src.head_);
 }
 
-StackLstT& StackLstT::operator=(const StackLstT& src) {
+template<class T>
+StackLstT<T>& StackLstT<T>::operator=(const StackLstT<T>& src) {
   if (this != &src) {
     if (src.IsEmpty()) {
       Clear();
@@ -97,16 +99,19 @@ StackLstT& StackLstT::operator=(const StackLstT& src) {
   return *this;
 }
 
-StackLstT& StackLstT::operator=(StackLstT&& src) noexcept {
+template<class T>
+StackLstT<T>& StackLstT<T>::operator=(StackLstT<T>&& src) noexcept {
   std::swap(head_, src.head_);
   return *this;
 }
 
-bool StackLstT::IsEmpty() const noexcept {
+template<class T>
+bool StackLstT<T>::IsEmpty() const noexcept {
   return nullptr == head_;
 }
 
-void StackLstT::Pop() noexcept {
+template<class T>
+void StackLstT<T>::Pop() noexcept {
   if (!IsEmpty()) {
     Node* deleted = head_;  
     head_ = head_->next;
@@ -114,28 +119,32 @@ void StackLstT::Pop() noexcept {
   }
 }
 
-void StackLstT::Push(const Complex& val) {
+template<class T>
+void StackLstT<T>::Push(const T& val) {
   head_ = new Node{val, head_};
 }
-  
-Complex& StackLstT::Top() & {
+
+template<class T>
+T& StackLstT<T>::Top() & {
   if (IsEmpty()) {
     throw std::logic_error("StackLstT - try get top form empty stack.");
   }
   return head_->val;
 }
 
-const Complex& StackLstT::Top() const & {
+template<class T>
+const T& StackLstT<T>::Top() const & {
   if (IsEmpty()) {
     throw std::logic_error("StackLstT - try get top form empty stack.");
   }
   return head_->val;
 }
 
-void StackLstT::Clear() noexcept {
+template<class T>
+void StackLstT<T>::Clear() noexcept {
   while (!IsEmpty()) {
     Pop();
   }
 }
-*/
+
 #endif
