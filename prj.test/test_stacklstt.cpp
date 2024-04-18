@@ -9,13 +9,15 @@
 #include <string>
 #include <vector>
 
+
+
 #define TYPES int, double, std::string
+
+
 
 TEST_CASE_TEMPLATE_DEFINE("[stacklstt] - ctor", T, test_ctor) {
   StackLstT<T> st_def;
 }
-
-TEST_CASE_TEMPLATE_INVOKE(test_ctor, TYPES);
 
 
 TEST_CASE_TEMPLATE_DEFINE("[stacklstt] - LIFO", T, test_lifo) {
@@ -33,4 +35,7 @@ TEST_CASE_TEMPLATE_DEFINE("[stacklstt] - LIFO", T, test_lifo) {
   CHECK(correct_lifo);
 }
 
+
+
+TEST_CASE_TEMPLATE_INVOKE(test_ctor, TYPES);
 TEST_CASE_TEMPLATE_INVOKE(test_lifo, TYPES);
