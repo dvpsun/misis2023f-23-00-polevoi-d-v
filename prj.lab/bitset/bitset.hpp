@@ -10,6 +10,22 @@
 
 class BitSet {
 public:
+  class BitAccessor {
+  public:
+    BitAccessor() = delete;
+    BitAccessor(BitSet& bst, const std::int32_t idx) noexcept : bst_(bst), idx_(idx) {}
+    ~BitAccessor() = default;
+    BitAccessor(const BitAccessor&) = delete;
+    BitAccessor(BitAccessor&&) noexcept = default;
+    BitAccessor& operator=(const BitAccessor&) = delete;
+    BitAccessor& operator=(BitAccessor&&) noexcept = default;
+    BitAccessor& operator=(const bool v) { bst_.Set(idx_, v); return *this; }
+    [[nodiscard]] operator bool() const { return bst_.Get(idx_); }
+  private:
+    BitSet& bst_;
+    const std::int32_t idx_ = -1;
+  };
+public:
   BitSet() = default;
 
   BitSet(const BitSet&) = default;
@@ -46,7 +62,8 @@ public:
 
   [[nodiscard]] BitSet operator~();
 
-  // ? operator[](const int32_t) - what can return
+  BitAccessor operator[](const int32_t idx) { return {*this, idx}; }
+
   // std::ostream& WriteTxt(std::ostream&)
   // std::ostream& WriteBinary(std::ostream&)
   // std::istream& ReadTxt(std::istream&)
