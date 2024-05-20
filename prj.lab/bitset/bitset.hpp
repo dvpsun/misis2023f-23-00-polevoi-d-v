@@ -17,8 +17,8 @@ public:
     ~BitAccessor() = default;
     BitAccessor(const BitAccessor&) = delete;
     BitAccessor(BitAccessor&&) noexcept = default;
-    BitAccessor& operator=(const BitAccessor&) = delete;
-    BitAccessor& operator=(BitAccessor&&) noexcept = default;
+    BitAccessor& operator=(const BitAccessor&) = default;     // TODO: FIX
+    BitAccessor& operator=(BitAccessor&&) noexcept = default; // TODO: FIX
     BitAccessor& operator=(const bool v) { bst_.Set(idx_, v); return *this; }
     [[nodiscard]] operator bool() const { return bst_.Get(idx_); }
   private:
