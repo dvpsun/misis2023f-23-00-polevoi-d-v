@@ -1,4 +1,4 @@
-CHECK: 20240624-173238
+CHECK: 20240624-174215
 ERROR: lab complex - test build failed
 STATUS: lab complex_io - test-failed
 STATUS: lab complex_m - test-ok
